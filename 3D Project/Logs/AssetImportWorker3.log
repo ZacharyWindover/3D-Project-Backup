@@ -1,0 +1,266 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32498 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/Zachary Windover/3D Project
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+50261
+Successfully changed project path to: C:/Users/Zachary Windover/3D Project
+C:/Users/Zachary Windover/3D Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [1728] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 831288423 [EditorId] 831288423 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [1728] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 831288423 [EditorId] 831288423 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 17.17 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zachary Windover/3D Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16249 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008074 seconds.
+- Loaded All Assemblies, in  0.444 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.251 seconds
+Domain Reload Profiling: 693ms
+	BeginReloadAssembly (216ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (125ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (124ms)
+			TypeCache.Refresh (123ms)
+				TypeCache.ScanAssembly (111ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (251ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (199ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (141ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.892 seconds
+Refreshing native plugins compatible for Editor in 8.41 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.000 seconds
+Domain Reload Profiling: 1888ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (19ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (657ms)
+		LoadAssemblies (406ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (330ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (243ms)
+			ScanForSourceGeneratedMonoScriptInfo (53ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (1000ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (808ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (128ms)
+			ProcessInitializeOnLoadAttributes (492ms)
+			ProcessInitializeOnLoadMethodAttributes (171ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.12 seconds
+Refreshing native plugins compatible for Editor in 8.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (13.2 MB). Loaded Objects now: 7843.
+Memory consumption went from 405.4 MB to 392.2 MB.
+Total: 9.543800 ms (FindLiveObjects: 0.490900 ms CreateObjectMapping: 0.494500 ms MarkObjects: 6.500200 ms  DeleteObjects: 2.057500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1730.677648 seconds.
+  path: Assets/Third Party Assets/Primary/fnh-scar-heavy-mk17/source/scarh_scar_h_Normal.png
+  artifactKey: Guid(60245c68f86394e4e9278eea915b1b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/fnh-scar-heavy-mk17/source/scarh_scar_h_Normal.png using Guid(60245c68f86394e4e9278eea915b1b6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd252e2f7c6adc9efa5d0f0fb2dd7ba1c') in 0.164460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 128.794761 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/source/Tommy Gun.fbx
+  artifactKey: Guid(b1e5a418ca4299e46bf7ee1d1b3e477e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/source/Tommy Gun.fbx using Guid(b1e5a418ca4299e46bf7ee1d1b3e477e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d759af12df917192dc0416a77f09a0f') in 3.509812 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 330
+========================================================================
+Received Import Request.
+  Time since last request: 2.657036 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/textures/bullet_low_Material__90_BaseColor.png
+  artifactKey: Guid(d2bc611c91b90984790e6290a0b4f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/textures/bullet_low_Material__90_BaseColor.png using Guid(d2bc611c91b90984790e6290a0b4f095) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f158868901ede30f7c09a99eda4acf2') in 0.084262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__31_BaseColor.png
+  artifactKey: Guid(af6e6ece80a98bf41aba1b806e5459c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__31_BaseColor.png using Guid(af6e6ece80a98bf41aba1b806e5459c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b597d1de80ec38dba453dff7d779ae3a') in 0.081920 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/textures/bullet_low_Material__90_Normal.png
+  artifactKey: Guid(5fe41f319e7a454439eab429ee8a2f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/textures/bullet_low_Material__90_Normal.png using Guid(5fe41f319e7a454439eab429ee8a2f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5c18a8a224f4c4d04b915c55eb21018') in 0.059896 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000101 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__26_Roughness.png
+  artifactKey: Guid(4cd886ea91ee33c499ae32574bcf1270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__26_Roughness.png using Guid(4cd886ea91ee33c499ae32574bcf1270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16c0dde24fd1b1b2ee6def61c4de4c85') in 0.075259 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__26_BaseColor.png
+  artifactKey: Guid(d4fe52c4c1700da4d804cb9a3d902498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__26_BaseColor.png using Guid(d4fe52c4c1700da4d804cb9a3d902498) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b77a51629fe7aee31946b5a3aa170ac7') in 0.073335 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__26_Normal.png
+  artifactKey: Guid(e19345cfd1517fd42ab1855f89fc6de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/tommy-gun/textures/xport500_Material__26_Normal.png using Guid(e19345cfd1517fd42ab1855f89fc6de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5740e90c467aa987384785407423182') in 0.084120 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.876928 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/textures/SCARL_LPForNormalFix_Material_AO.png
+  artifactKey: Guid(76499508de504d2489bd8d57948db4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/textures/SCARL_LPForNormalFix_Material_AO.png using Guid(76499508de504d2489bd8d57948db4fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efebd119100f69fa498402fe9cd7239a') in 0.094657 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/textures/SCARL_LPForNormalFix_Material_MetallicSmoo.png
+  artifactKey: Guid(40fb282c8b6ebb640a3bdcc0ac5f0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/textures/SCARL_LPForNormalFix_Material_MetallicSmoo.png using Guid(40fb282c8b6ebb640a3bdcc0ac5f0e48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ace97d0906043014bf4add3608b5adb') in 0.074413 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

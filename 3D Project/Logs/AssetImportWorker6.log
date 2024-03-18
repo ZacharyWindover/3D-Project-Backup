@@ -1,0 +1,538 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32498 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Zachary Windover/3D Project
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50261
+Successfully changed project path to: C:/Users/Zachary Windover/3D Project
+C:/Users/Zachary Windover/3D Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [13640] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1394018099 [EditorId] 1394018099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [13640] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1394018099 [EditorId] 1394018099 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 20.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zachary Windover/3D Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16249 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008141 seconds.
+- Loaded All Assemblies, in  0.410 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.353 seconds
+Domain Reload Profiling: 762ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (55ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (139ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (164ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (354ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (241ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (168ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.097 seconds
+Refreshing native plugins compatible for Editor in 8.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.525 seconds
+Domain Reload Profiling: 2602ms
+	BeginReloadAssembly (134ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (804ms)
+		LoadAssemblies (494ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (388ms)
+			TypeCache.Refresh (308ms)
+				TypeCache.ScanAssembly (287ms)
+			ScanForSourceGeneratedMonoScriptInfo (64ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (1525ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1315ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (90ms)
+			ProcessInitializeOnLoadAttributes (785ms)
+			ProcessInitializeOnLoadMethodAttributes (416ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 8.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (13.2 MB). Loaded Objects now: 7843.
+Memory consumption went from 405.4 MB to 392.2 MB.
+Total: 9.326500 ms (FindLiveObjects: 0.562200 ms CreateObjectMapping: 0.437700 ms MarkObjects: 5.936600 ms  DeleteObjects: 2.389200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2172.325889 seconds.
+  path: Assets/Third Party Assets/Primary/LMGs/Machine Guns/Materials/DSN_MachineGun_01.mat
+  artifactKey: Guid(3bb9293946c6b4842ac3979fe40e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/LMGs/Machine Guns/Materials/DSN_MachineGun_01.mat using Guid(3bb9293946c6b4842ac3979fe40e058b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '781de8ecb8c4e27e66edb9135a03a92d') in 0.795188 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 115.651255 seconds.
+  path: Assets/Third Party Assets/Primary/low-poly-aac-honey-badger/source/AAC Honeybadger.fbx
+  artifactKey: Guid(329a0aed32c53d14e95e7e0c66e779cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/low-poly-aac-honey-badger/source/AAC Honeybadger.fbx using Guid(329a0aed32c53d14e95e7e0c66e779cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fbd040a36ceda208c35cd9ffe0456a0') in 0.836849 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 79
+========================================================================
+Received Import Request.
+  Time since last request: 49.717801 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/source/HK-MP5.fbx
+  artifactKey: Guid(783b355813a566441be1ef314fefe79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/source/HK-MP5.fbx using Guid(783b355813a566441be1ef314fefe79c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1211b176bbce358bae76f4bdee12e80') in 0.429398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 43
+========================================================================
+Received Import Request.
+  Time since last request: 18.576733 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Attachments_BaseColor.png
+  artifactKey: Guid(a84dbd7cea70a3e41a977ec961a47bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Attachments_BaseColor.png using Guid(a84dbd7cea70a3e41a977ec961a47bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e3d872f606dcba3072378cf9f3e4c54') in 0.110899 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Buttstock_Normal.png
+  artifactKey: Guid(6d65ca04f04f3184e8621fb938f236f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Buttstock_Normal.png using Guid(6d65ca04f04f3184e8621fb938f236f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c66c1a2c7108ee3915ca09944bcf35') in 0.091869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Buttstock_Roughness.png
+  artifactKey: Guid(0d478cbd1faff00449b751a16241ecb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Buttstock_Roughness.png using Guid(0d478cbd1faff00449b751a16241ecb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f073c7a86506e4764f1b6d203d7f44e0') in 0.057458 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Grip_Normal.png
+  artifactKey: Guid(7ca52102604284b42b6dc1697c135d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Grip_Normal.png using Guid(7ca52102604284b42b6dc1697c135d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c624a38e1c37278f3ce7450aa504b33f') in 0.077578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Grip_BaseColor.png
+  artifactKey: Guid(33d7465d27ebf094bb3907ceb9feb75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Grip_BaseColor.png using Guid(33d7465d27ebf094bb3907ceb9feb75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e973a607cdd5b358bc6f67cd8837d59') in 0.082556 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Body_BaseColor.png
+  artifactKey: Guid(ee0c6f91fd3e54543906c7a52c869c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Body_BaseColor.png using Guid(ee0c6f91fd3e54543906c7a52c869c20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40802f4ac70041197c8a65cb9b967d09') in 0.075347 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Mag_&_Barrel_BaseColor.png
+  artifactKey: Guid(2cb3f32a80dbed24ab582cd5b181309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Mag_&_Barrel_BaseColor.png using Guid(2cb3f32a80dbed24ab582cd5b181309f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b438a1591ed10c2a647b8d2932a3a9fe') in 0.079422 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Mag_&_Barrel_Normal.png
+  artifactKey: Guid(52ed665c5bb6b924e98ae3c993590c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Mag_&_Barrel_Normal.png using Guid(52ed665c5bb6b924e98ae3c993590c48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28a8c1e157c62eeed909ad1ebd6d17b1') in 0.079198 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Attachments_Roughness.png
+  artifactKey: Guid(356fb0257b7793845a922d0f86b50633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5-smg/textures/HK-MP5A2_Low_Attachments_Roughness.png using Guid(356fb0257b7793845a922d0f86b50633) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb99ce553dcab9dca830becad5506429') in 0.081951 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 29.594686 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/lightfore_Metallic.png
+  artifactKey: Guid(dab2f448450bf9243b19a67b0fd5ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/lightfore_Metallic.png using Guid(dab2f448450bf9243b19a67b0fd5ed9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255b32b9ae349157a4234fbf8cef8360') in 0.082178 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_skfb.fbx
+  artifactKey: Guid(7fc1102effafd66419a44e60477f068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_skfb.fbx using Guid(7fc1102effafd66419a44e60477f068d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cb55b082e99a174ae51b88874ffd84') in 1.376272 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 139
+========================================================================
+Received Import Request.
+  Time since last request: 209.178430 seconds.
+  path: Assets/Third Party Assets/Primary/steyr-aug-a1/source/Steyr Aug_A1.fbx
+  artifactKey: Guid(d9627e44f1341b748b04f6a8555de298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/steyr-aug-a1/source/Steyr Aug_A1.fbx using Guid(d9627e44f1341b748b04f6a8555de298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230f30b2ee4a7b1835c2458181ca7068') in 0.496051 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 46
+========================================================================
+Received Import Request.
+  Time since last request: 62.267922 seconds.
+  path: Assets/Third Party Assets/Primary/cz-scorpion-evo-3-s1/source/CZ Scorpion_1.fbx
+  artifactKey: Guid(e9439bd7a601fee4bac7fa0230f1b46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/cz-scorpion-evo-3-s1/source/CZ Scorpion_1.fbx using Guid(e9439bd7a601fee4bac7fa0230f1b46a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a84ce988fa2365e345e6bad5052024d5') in 0.443110 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 58
+========================================================================
+Received Import Request.
+  Time since last request: 50.976869 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/sketchfab.fbx
+  artifactKey: Guid(19d39ee7b66f7dc40899ea0922a88b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/sketchfab.fbx using Guid(19d39ee7b66f7dc40899ea0922a88b37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6dbfa7684f21c7e6e1cae0c14d30e2b4') in 0.625371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 72
+========================================================================
+Received Import Request.
+  Time since last request: 24.406472 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo.mat
+  artifactKey: Guid(be034471f3ae3374b895e4c84f50bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo.mat using Guid(be034471f3ae3374b895e4c84f50bf73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '679101a063a608be0892945147d0529d') in 0.032451 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_red_dot.mat
+  artifactKey: Guid(f0fe574ba22518c48847c590b38348e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_red_dot.mat using Guid(f0fe574ba22518c48847c590b38348e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '129d5a2ce78c1b0e64f7060c9c4cbc75') in 0.037031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/light_glass.mat
+  artifactKey: Guid(8fcceb5ef173fac41be1b015b388ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/light_glass.mat using Guid(8fcceb5ef173fac41be1b015b388ad4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d454cfafdd5abe22fffd3e67f85fb04') in 0.034617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.989122 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_Diffuse.png
+  artifactKey: Guid(cf52db82dd65af149a13710587b8b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_Diffuse.png using Guid(cf52db82dd65af149a13710587b8b15d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b6fdb6fb099d1a7107c215b05228797') in 0.065265 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_glass_Normal.png
+  artifactKey: Guid(fbce649ce7fcf6a40a5a875577995ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_glass_Normal.png using Guid(fbce649ce7fcf6a40a5a875577995ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fdace17e21681022a7ec2f2a05e378c') in 0.062289 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/holo_Specular.png
+  artifactKey: Guid(6b6ac7594c267604ba62244c7ab90d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/holo_Specular.png using Guid(6b6ac7594c267604ba62244c7ab90d84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5590b0abce9f258548137877042e7fa1') in 0.071084 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Normal.png
+  artifactKey: Guid(452682bdad1446342916afb1e642f523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Normal.png using Guid(452682bdad1446342916afb1e642f523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9e3548c1179e25990f397e2d964a2b') in 0.065654 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_glass_Diffuse.png
+  artifactKey: Guid(94f87eaac4198d1438859424c848c52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_glass_Diffuse.png using Guid(94f87eaac4198d1438859424c848c52c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d5b1dc3805c5ef3a7861f84963e98e6') in 0.056024 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Diffuse.png
+  artifactKey: Guid(85df70898c3777d4d88b10b1df8a2bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Diffuse.png using Guid(85df70898c3777d4d88b10b1df8a2bbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50176f88d83c61cd50740adca9685391') in 0.064534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_Mixed_AO.png
+  artifactKey: Guid(98669ce041dd4e14eab5c7c2ab94dc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_Mixed_AO.png using Guid(98669ce041dd4e14eab5c7c2ab94dc6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e90479db38ae8bf0bb4959685e653d7e') in 0.092599 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/holo_Mixed_AO.png
+  artifactKey: Guid(4074b6c057b30d246a8fd6a5fa25fd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/holo_Mixed_AO.png using Guid(4074b6c057b30d246a8fd6a5fa25fd77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abce6caf399f7a04393ab090ac0b6e19') in 0.077505 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Mixed_AO.png
+  artifactKey: Guid(4ab98836fb507c84a8d428496255c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Mixed_AO.png using Guid(4ab98836fb507c84a8d428496255c261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c3a9063e862bdb43804490311e9c14') in 0.075052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Glossiness.png
+  artifactKey: Guid(6adfc06d29abf294d9cc05dfe2d6bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/suppressor_Glossiness.png using Guid(6adfc06d29abf294d9cc05dfe2d6bfc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80027cf0837b9adc294e032a5edede35') in 0.067702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/gun_Diffuse.png
+  artifactKey: Guid(33d5dcf5c509a4e4e86d9808a71c6d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/gun_Diffuse.png using Guid(33d5dcf5c509a4e4e86d9808a71c6d6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ec1810e9c09d17bab4ccafecfebb2ee') in 0.077493 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000115 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/holo_Glossiness.png
+  artifactKey: Guid(f50540367e434d143be690218ae94eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/holo_Glossiness.png using Guid(f50540367e434d143be690218ae94eb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41b1aeb8aed8ccaf0ae25680d696bda') in 0.040684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000139 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_glass_Glossiness.png
+  artifactKey: Guid(81c5ef33451e9c347b85ebc8ac519c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/textures/flashlight_glass_Glossiness.png using Guid(81c5ef33451e9c347b85ebc8ac519c19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '797feb7ecc576be14345bc6453e889c9') in 0.041403 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.664450 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/flashlight_glass_Diffuse.png
+  artifactKey: Guid(1f410de40fe92804fa270a8bd40f89d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/flashlight_glass_Diffuse.png using Guid(1f410de40fe92804fa270a8bd40f89d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1852f58f4050d767e4963228ae37beb2') in 0.038921 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_Mixed_AO.png
+  artifactKey: Guid(3d416d9040287c246beaa84debfabe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_Mixed_AO.png using Guid(3d416d9040287c246beaa84debfabe3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '246b67fdca2f8c6cb0568b954d00afd2') in 0.052567 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/gun_Normal.png
+  artifactKey: Guid(523bc6424da7280489e10431210b7cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/gun_Normal.png using Guid(523bc6424da7280489e10431210b7cc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767e1d16c825e4f9f6d4aee4f1d22f07') in 0.068517 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000103 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/flashlight_Glossiness.png
+  artifactKey: Guid(bf4a56b4fc3e140479e861baca8a9b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/flashlight_Glossiness.png using Guid(bf4a56b4fc3e140479e861baca8a9b56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cd5fc6aa161517814179e037a3e4823') in 0.045547 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_Normal.png
+  artifactKey: Guid(b6d9e96518341214caafd40ea64b7a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_Normal.png using Guid(b6d9e96518341214caafd40ea64b7a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fb313785f675dc9cbec12013ff20b1') in 0.034958 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/flashlight_Specular.png
+  artifactKey: Guid(7c42c72fffab7094d8773388d98242a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/flashlight_Specular.png using Guid(7c42c72fffab7094d8773388d98242a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '566614302efb33ec436875ebc2a83a4e') in 0.050929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_Glossiness.png
+  artifactKey: Guid(e10cf6fa37ff7b54382e30befc409135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/holo_Glossiness.png using Guid(e10cf6fa37ff7b54382e30befc409135) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47e9c989e480022e3749c635a2568d0b') in 0.050286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/gun_Diffuse.png
+  artifactKey: Guid(b37904e7d7e47304b82d82b68f9875d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/gun_Diffuse.png using Guid(b37904e7d7e47304b82d82b68f9875d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16a59212f6ebe8be9aa8a50723fa918') in 0.059625 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 47.652310 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/Materials/holo_glass.mat
+  artifactKey: Guid(7925add386d2a5a4eab4d62bbd968b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/Materials/holo_glass.mat using Guid(7925add386d2a5a4eab4d62bbd968b63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dfdb6b8c51afed3c921fc5e7fb135f2') in 0.054490 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000099 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/Materials/suppressor.mat
+  artifactKey: Guid(5cee0b8eed9f29b43b3aee99f3ac226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/Materials/suppressor.mat using Guid(5cee0b8eed9f29b43b3aee99f3ac226d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af2d1029732fa5b6f54fd5e582ca4aa') in 0.059522 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/Materials/holo_red_dot.mat
+  artifactKey: Guid(7364ad207fe736941ab83511aeecaeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/fn-502-tactical-22-lr suppressed/source/Materials/holo_red_dot.mat using Guid(7364ad207fe736941ab83511aeecaeb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78a26d4804e6daaaf750b01fbf8fe8d3') in 0.045312 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

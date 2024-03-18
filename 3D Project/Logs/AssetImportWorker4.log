@@ -1,0 +1,498 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32498 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Users/Zachary Windover/3D Project
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+50261
+Successfully changed project path to: C:/Users/Zachary Windover/3D Project
+C:/Users/Zachary Windover/3D Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [15988] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2786625028 [EditorId] 2786625028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [15988] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2786625028 [EditorId] 2786625028 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 63.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zachary Windover/3D Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16249 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56612
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008239 seconds.
+- Loaded All Assemblies, in  0.340 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.275 seconds
+Domain Reload Profiling: 614ms
+	BeginReloadAssembly (96ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (94ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (145ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (131ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (276ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (224ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (164ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.950 seconds
+Refreshing native plugins compatible for Editor in 10.32 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.114 seconds
+Domain Reload Profiling: 2061ms
+	BeginReloadAssembly (288ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (37ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (41ms)
+	LoadAllAssembliesAndSetupDomain (571ms)
+		LoadAssemblies (446ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (324ms)
+			TypeCache.Refresh (235ms)
+				TypeCache.ScanAssembly (209ms)
+			ScanForSourceGeneratedMonoScriptInfo (64ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (1114ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (856ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (86ms)
+			ProcessInitializeOnLoadAttributes (559ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 10.10 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (13.2 MB). Loaded Objects now: 7843.
+Memory consumption went from 405.3 MB to 392.1 MB.
+Total: 8.986700 ms (FindLiveObjects: 0.514400 ms CreateObjectMapping: 0.456200 ms MarkObjects: 5.906000 ms  DeleteObjects: 2.109400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1886.711160 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/textures
+  artifactKey: Guid(80e830102a4c27c4a9017a5dbb772b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/textures using Guid(80e830102a4c27c4a9017a5dbb772b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa343a91b4e4c6fc1a4965ea1c2a289') in 0.005838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/textures/SCARL_LPForNormalFix_Material_Roughness.png
+  artifactKey: Guid(fadb76f789c1cff4181fffc5747bae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/textures/SCARL_LPForNormalFix_Material_Roughness.png using Guid(fadb76f789c1cff4181fffc5747bae34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41c59285c7756f0180ca623b749aeba1') in 0.187092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.198689 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source
+  artifactKey: Guid(6a3fced1f47d9364da03ba074b832a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source using Guid(6a3fced1f47d9364da03ba074b832a6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38b956bdbefbf48a9d0e44282cc9e69') in 0.001337 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 14.477580 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx
+  artifactKey: Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx using Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5a1b41d3b7fe2422164c0ad1ac8f2e') in 3.451952 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 297
+========================================================================
+Received Import Request.
+  Time since last request: 3.535481 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx
+  artifactKey: Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx using Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3f11afaeffb77913a296e3d11d7c75f') in 1.964534 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 296
+========================================================================
+Received Import Request.
+  Time since last request: 15.485960 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx
+  artifactKey: Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx using Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5732a5ee3580e5fb73c93a07b58e76b0') in 2.556175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 296
+========================================================================
+Received Import Request.
+  Time since last request: 1.599800 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx
+  artifactKey: Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx using Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18e3df2dedf181cc10882a6dbb22ac62') in 2.325268 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Import Request.
+  Time since last request: 3.059532 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx
+  artifactKey: Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx using Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79aed2d56e90526437c15751f2b1f632') in 2.571854 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 296
+========================================================================
+Received Import Request.
+  Time since last request: 1.971855 seconds.
+  path: Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx
+  artifactKey: Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/scar-l/source/SCAR_L.fbx using Guid(3793a865a4a6f89439f4366bba22a47d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776858480c1a7da0f036f17e1b9e4cde') in 2.409668 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 295
+========================================================================
+Received Import Request.
+  Time since last request: 37.155318 seconds.
+  path: Assets/Third Party Assets/Primary/low-poly-fn-scar-h/source
+  artifactKey: Guid(d822c9e8e45275748bbe7e949854c29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/low-poly-fn-scar-h/source using Guid(d822c9e8e45275748bbe7e949854c29e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c3702e4133920cc72b5fe6284729de3') in 0.003398 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.115761 seconds.
+  path: Assets/Third Party Assets/Primary/mp5-free/source
+  artifactKey: Guid(06491c8b93f24fa41881edddf2094c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mp5-free/source using Guid(06491c8b93f24fa41881edddf2094c7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1827c132402b718be66f67d267123e6c') in 0.001287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.201804 seconds.
+  path: Assets/Third Party Assets/Primary/mp5-free/source/MP5_HP.fbx
+  artifactKey: Guid(d24d7b4d52c091a439d1d7648d1053f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mp5-free/source/MP5_HP.fbx using Guid(d24d7b4d52c091a439d1d7648d1053f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20cce95c2e9f2b38208551d4753a4628') in 0.291984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 31
+========================================================================
+Received Import Request.
+  Time since last request: 40.398575 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5
+  artifactKey: Guid(5c46647c6e452624593c760cfb3716f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5 using Guid(5c46647c6e452624593c760cfb3716f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6137f4ee8ff69a46d257482d2526dab') in 0.001175 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.033071 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/source
+  artifactKey: Guid(658030c21fe59594abf8584dc5a03bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/source using Guid(658030c21fe59594abf8584dc5a03bdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cf55e919f2579bc50a14a4f64d52eac') in 0.001239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 24.230530 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures
+  artifactKey: Guid(8b14d4913d78e404d9de331db38b9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures using Guid(8b14d4913d78e404d9de331db38b9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf19ed41b9860a0293e31504914a4d8') in 0.001136 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_c.png
+  artifactKey: Guid(be7b2f972b2061a49ae2726e4c169058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_c.png using Guid(be7b2f972b2061a49ae2726e4c169058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20fdb8286de9289da71a97aef7e22639') in 0.091814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/receiver__s.png
+  artifactKey: Guid(1281273c831d5dd4aab5d006740810a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/receiver__s.png using Guid(1281273c831d5dd4aab5d006740810a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8de75a9801f963df541d12e440f5a08b') in 0.064963 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_n.png
+  artifactKey: Guid(6398347d9112a4f4da84cc16a91be5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_n.png using Guid(6398347d9112a4f4da84cc16a91be5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55fdd4cdfbd1a3a0ebd5865a97342662') in 0.054869 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000118 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/bipod_g.png
+  artifactKey: Guid(9cbd2ea42a88f5f489f44f6d17d873aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/bipod_g.png using Guid(9cbd2ea42a88f5f489f44f6d17d873aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78e425b4361d9f85698987da21385ab6') in 0.046460 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/stock_n.png
+  artifactKey: Guid(0e649fa40e7cae54088203572056f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/stock_n.png using Guid(0e649fa40e7cae54088203572056f294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae5ec8a54d096c57d31556f0bdfb26a6') in 0.051244 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_c.jpeg
+  artifactKey: Guid(3cbca12870ac7e84785305e12fe58dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_c.jpeg using Guid(3cbca12870ac7e84785305e12fe58dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99f453f9b99034029e6b2e3b2e1eed54') in 0.053509 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/scope_s.png
+  artifactKey: Guid(ce8428217f6f3454192a5ea7b643491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/scope_s.png using Guid(ce8428217f6f3454192a5ea7b643491a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c1342f85fcf7fe21d303a5642c20cf2') in 0.062022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/pistlgrip_s.png
+  artifactKey: Guid(bf29e8c5d31eceb4bb6809db0c0557c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/pistlgrip_s.png using Guid(bf29e8c5d31eceb4bb6809db0c0557c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c913a1b9f9b858994eaf34e7c0d6859') in 0.066102 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/barrel_n.png
+  artifactKey: Guid(ac6927c3eb90d5841ae0747275d84ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/barrel_n.png using Guid(ac6927c3eb90d5841ae0747275d84ade) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b2789495dfe506c5aaf7747f5fa8239') in 0.061897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_n.jpeg
+  artifactKey: Guid(9a3640302dd7874438294291e0feb884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_n.jpeg using Guid(9a3640302dd7874438294291e0feb884) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1e4afae094615fe7ea1c142f67f754') in 0.049083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mag_g.png
+  artifactKey: Guid(0f4500afadd180e499833bbe25b26f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mag_g.png using Guid(0f4500afadd180e499833bbe25b26f31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daf0e79894bddde1a4352395106713f8') in 0.052160 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/scope_g.png
+  artifactKey: Guid(5bc687779d69582479591f74e8f297b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/scope_g.png using Guid(5bc687779d69582479591f74e8f297b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68023f67c5ba4f927182dba26e3c300b') in 0.065336 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.001359 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_g.png
+  artifactKey: Guid(a3fac8adc3abf474a90a7c9c611a60df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_g.png using Guid(a3fac8adc3abf474a90a7c9c611a60df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffcd1db8c1545953db35be04f7971c34') in 0.039877 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_top_n.jpeg
+  artifactKey: Guid(b07ad7eb5783daa45944c9804d3eeed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_top_n.jpeg using Guid(b07ad7eb5783daa45944c9804d3eeed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ee502bbd77a6546c93ee99c1a6a79f') in 0.039571 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/muzzle_n.png
+  artifactKey: Guid(19acf9c87f659ef44a54a5fcc3fe497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/muzzle_n.png using Guid(19acf9c87f659ef44a54a5fcc3fe497e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c54fff9b8fabc7862756addfbd00a17d') in 0.035250 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_s.png
+  artifactKey: Guid(e74c4c88ee423ff438b2923e6a0d08f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mount_s.png using Guid(e74c4c88ee423ff438b2923e6a0d08f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685d77aae86f30eecc2516ca5e46a7ed') in 0.046258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/muzzle_s.png
+  artifactKey: Guid(c77191825b545e8468ea2592da1dcbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/muzzle_s.png using Guid(c77191825b545e8468ea2592da1dcbe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65da4aef1b3df3dc43fa1b2359490130') in 0.032795 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_s.png
+  artifactKey: Guid(57a7391526b70314a871ff9f76889ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_s.png using Guid(57a7391526b70314a871ff9f76889ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431dbcd765872303d582c13debfc5f1e') in 0.037709 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/bipod_n.png
+  artifactKey: Guid(eec2db96d8e48be4ba31005ed73d0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/bipod_n.png using Guid(eec2db96d8e48be4ba31005ed73d0e28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f966394cd9835f7fbbb0925d5a734db') in 0.062953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000114 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mag_n.png
+  artifactKey: Guid(0d2ac4c2bec60d741a9145709e8d5f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/mag_n.png using Guid(0d2ac4c2bec60d741a9145709e8d5f23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60af7262ab046c398708e0afa219f0ad') in 0.063286 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/bipod_c.png
+  artifactKey: Guid(99727b1df433c444aa21883d143f33b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/bipod_c.png using Guid(99727b1df433c444aa21883d143f33b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '315e2e27eb58ba05a7f04886ed4c977b') in 0.064185 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/scope_n.png
+  artifactKey: Guid(7838933619423f04ca2d61f393eace5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/scope_n.png using Guid(7838933619423f04ca2d61f393eace5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '360cb882dffc885edf5ce532a8228fb9') in 0.061886 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/stock_s.png
+  artifactKey: Guid(063e114e2ad287345add7e4345d1a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/stock_s.png using Guid(063e114e2ad287345add7e4345d1a86b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83be87cd1042935a3d3d8dfc3f20a3e5') in 0.055135 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000113 seconds.
+  path: Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_g.png
+  artifactKey: Guid(26fa6fdacad07174b8e7f116820e182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/mcmillan-alias-cs5/textures/case_base_g.png using Guid(26fa6fdacad07174b8e7f116820e182c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0153bc03400db0e1b052125e99a58f9') in 0.065702 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

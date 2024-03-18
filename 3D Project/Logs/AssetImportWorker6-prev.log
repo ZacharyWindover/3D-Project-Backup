@@ -1,0 +1,305 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32498 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker6
+-projectPath
+C:/Users/Zachary Windover/3D Project
+-logFile
+Logs/AssetImportWorker6.log
+-srvPort
+50281
+Successfully changed project path to: C:/Users/Zachary Windover/3D Project
+C:/Users/Zachary Windover/3D Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [19128] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1085461486 [EditorId] 1085461486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [19128] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1085461486 [EditorId] 1085461486 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 13.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zachary Windover/3D Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16249 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56124
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.009564 seconds.
+- Loaded All Assemblies, in  0.382 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.313 seconds
+Domain Reload Profiling: 694ms
+	BeginReloadAssembly (121ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (147ms)
+		LoadAssemblies (118ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (146ms)
+			TypeCache.Refresh (144ms)
+				TypeCache.ScanAssembly (130ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (313ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (251ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (179ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.743 seconds
+Refreshing native plugins compatible for Editor in 3.95 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.731 seconds
+Domain Reload Profiling: 1471ms
+	BeginReloadAssembly (175ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (24ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (46ms)
+	LoadAllAssembliesAndSetupDomain (468ms)
+		LoadAssemblies (338ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (237ms)
+			TypeCache.Refresh (174ms)
+				TypeCache.ScanAssembly (157ms)
+			ScanForSourceGeneratedMonoScriptInfo (51ms)
+			ResolveRequiredComponents (11ms)
+	FinalizeReload (732ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (553ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (79ms)
+			ProcessInitializeOnLoadAttributes (384ms)
+			ProcessInitializeOnLoadMethodAttributes (71ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 4.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4937 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 5395.
+Memory consumption went from 276.2 MB to 275.5 MB.
+Total: 3.792200 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.335500 ms MarkObjects: 2.741800 ms  DeleteObjects: 0.320500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2265.437314 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/Gas Mask.fbm/Ch35_1001_Normal.png
+  artifactKey: Guid(99c843e4572662c4cab1f099e9cb23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/Gas Mask.fbm/Ch35_1001_Normal.png using Guid(99c843e4572662c4cab1f099e9cb23ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3833ab152fa536829eda7b3d4746ea39') in 0.279981 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/Gas Mask.fbm/Ch35_1002_Specular.png
+  artifactKey: Guid(d656f879ce7c5c94a8aced6fe680c6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/Gas Mask.fbm/Ch35_1002_Specular.png using Guid(d656f879ce7c5c94a8aced6fe680c6d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af7b59338b13ec2d1489334e6a1c664a') in 0.078696 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 3.322232 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/Materials/Ch35_1001_Diffuse.mat
+  artifactKey: Guid(3e4282fac63cc8d4cb5d86323e069ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/Materials/Ch35_1001_Diffuse.mat using Guid(3e4282fac63cc8d4cb5d86323e069ee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4edbe62d1b11534fd302a9644b9f9b80') in 0.748240 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 2.827235 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/SWAT Guy.fbm/Ch15_1001_Normal.png
+  artifactKey: Guid(ce292126942b5834891cb5d6d7f8ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/SWAT Guy.fbm/Ch15_1001_Normal.png using Guid(ce292126942b5834891cb5d6d7f8ceb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c21c132b30e00273155b84dd554e6863') in 0.067475 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/SWAT Guy.fbm/Ch15_1002_Glossiness.png
+  artifactKey: Guid(5da89c2cb431cca43bd82a6d0d59eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/SWAT Guy.fbm/Ch15_1002_Glossiness.png using Guid(5da89c2cb431cca43bd82a6d0d59eeab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dc050b62128cd6b1fb2e241ce79400b') in 0.079147 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/SWAT Guy.fbm/Ch15_1002_Diffuse.png
+  artifactKey: Guid(a60e53bcf52452148b3b7dc33fa3bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/SWAT Guy.fbm/Ch15_1002_Diffuse.png using Guid(a60e53bcf52452148b3b7dc33fa3bb08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5526a3385698ce9f3005b1f158b5e58') in 0.077757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.252708 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/Swat.fbm/Soldier_Body_normal.png
+  artifactKey: Guid(672b9d412caa14744884cf644b7fd2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/Swat.fbm/Soldier_Body_normal.png using Guid(672b9d412caa14744884cf644b7fd2e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb6d827171e710a619e22bb253983cd4') in 0.057037 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Third Party Assets/Characters/Playable/Swat.fbm/Soldier_head_normal.png
+  artifactKey: Guid(975637db073b9fb4394f9886b987f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Playable/Swat.fbm/Soldier_head_normal.png using Guid(975637db073b9fb4394f9886b987f9e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb6eed16fff1eeea6ec1b0f258cc577') in 0.077053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 26.961776 seconds.
+  path: Assets/Third Party Assets/Characters/Enemies/Alex.fbm/Ch18_1001_Normal.png
+  artifactKey: Guid(44c0da2688875e1418cd13aa50fa300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Enemies/Alex.fbm/Ch18_1001_Normal.png using Guid(44c0da2688875e1418cd13aa50fa300b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8827e718a214c3f21d8984ff765ee7') in 0.083544 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.299503 seconds.
+  path: Assets/Third Party Assets/Characters/Enemies/Alien Soldier.fbm/Ch44_1001_Glossiness.png
+  artifactKey: Guid(f85af233f45affe4ea8448ff15e544b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Enemies/Alien Soldier.fbm/Ch44_1001_Glossiness.png using Guid(f85af233f45affe4ea8448ff15e544b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a6caf063a6b0ebb21a231e7185addc') in 0.036987 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Third Party Assets/Characters/Enemies/Alien Soldier.fbm/Ch44_1002_Emissive.png
+  artifactKey: Guid(083053dd92af5a84e9c6b583d7633848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Enemies/Alien Soldier.fbm/Ch44_1002_Emissive.png using Guid(083053dd92af5a84e9c6b583d7633848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5daff68490cb57c8de24c30784d446de') in 0.069052 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000094 seconds.
+  path: Assets/Third Party Assets/Characters/Enemies/Alien Soldier.fbm/Ch44_1002_Normal.png
+  artifactKey: Guid(bc9d2990b53539c4880cc813b65c51d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Enemies/Alien Soldier.fbm/Ch44_1002_Normal.png using Guid(bc9d2990b53539c4880cc813b65c51d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2958cae96f62da2504d9cf04fd853fc7') in 0.082862 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 2.653078 seconds.
+  path: Assets/Third Party Assets/Characters/Enemies/Steve/Ch49_1001_Normal.png
+  artifactKey: Guid(48dd538a51343844e925e2c6ff48f988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Enemies/Steve/Ch49_1001_Normal.png using Guid(48dd538a51343844e925e2c6ff48f988) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b318ab82ca31b346dcb7eb353e65eba4') in 0.054783 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Third Party Assets/Characters/Enemies/Steve/Ch49_1002_Glossiness.png
+  artifactKey: Guid(8d047fe72e218f64a82f512ed63b0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Characters/Enemies/Steve/Ch49_1002_Glossiness.png using Guid(8d047fe72e218f64a82f512ed63b0c22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '722f01f69b50f536aa6755e50a923fde') in 0.071658 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 18.689101 seconds.
+  path: Assets/Third Party Assets/Secondary/1911/Prefabs/Magazine.prefab
+  artifactKey: Guid(f7b56492a603da947abb77f537daa126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Secondary/1911/Prefabs/Magazine.prefab using Guid(f7b56492a603da947abb77f537daa126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c778cb79e54749911bf7cee5dcc45d5d') in 0.227376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 21
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

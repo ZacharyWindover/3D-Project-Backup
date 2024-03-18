@@ -1,0 +1,474 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32498 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker18
+-projectPath
+C:/Users/Zachary Windover/3D Project
+-logFile
+Logs/AssetImportWorker18.log
+-srvPort
+50281
+Successfully changed project path to: C:/Users/Zachary Windover/3D Project
+C:/Users/Zachary Windover/3D Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5532] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1488156757 [EditorId] 1488156757 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5532] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 1488156757 [EditorId] 1488156757 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 23.07 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zachary Windover/3D Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16249 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.031982 seconds.
+- Loaded All Assemblies, in  0.514 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.325 seconds
+Domain Reload Profiling: 835ms
+	BeginReloadAssembly (126ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (30ms)
+	initialDomainReloadingComplete (139ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (124ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (170ms)
+			TypeCache.Refresh (168ms)
+				TypeCache.ScanAssembly (152ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (325ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (254ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (174ms)
+			ProcessInitializeOnLoadMethodAttributes (57ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.138 seconds
+Refreshing native plugins compatible for Editor in 11.74 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.386 seconds
+Domain Reload Profiling: 2520ms
+	BeginReloadAssembly (180ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (43ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (842ms)
+		LoadAssemblies (436ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (512ms)
+			TypeCache.Refresh (443ms)
+				TypeCache.ScanAssembly (416ms)
+			ScanForSourceGeneratedMonoScriptInfo (49ms)
+			ResolveRequiredComponents (18ms)
+	FinalizeReload (1387ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1105ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (119ms)
+			ProcessInitializeOnLoadAttributes (640ms)
+			ProcessInitializeOnLoadMethodAttributes (316ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 13.58 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (13.2 MB). Loaded Objects now: 7842.
+Memory consumption went from 404.6 MB to 391.4 MB.
+Total: 11.592700 ms (FindLiveObjects: 0.606300 ms CreateObjectMapping: 0.528700 ms MarkObjects: 7.835100 ms  DeleteObjects: 2.621300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NzExplode.cs: e4f98f8959cb12b810b0c2b197410024 -> a771d1c7e65e55e33a589dbed140eddd
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NzSelection.cs: c55ec747d7264bfcd4dc37400fd26670 -> 57f1d5d1a5f593f3ce7b04f0d3eb86f8
+  custom:scripting/monoscript/fileName/NzCamNav.cs: dcee80bb59167c2f2af02b8261965603 -> 0188b1bb309ed1ce96f7283f6662ecc1
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraRotate.cs: 55021f2be27f9cda2dee249715bfd9ca -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NzAnim.cs: b3a05e6cd47e33023b215adf26b43913 -> 6d48babcd3381fd73ccf106f9983ef7f
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NzRotator.cs: 3026c715639065117df683a110552749 -> a0a30357f65f09c6634129056fab3ea0
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimpleShoot.cs: 9327e3975ddbf2dc32e9ebbe481e78f3 -> 9fb8d3949cadcf7a4a3f243fff7319c3
+========================================================================
+Received Import Request.
+  Time since last request: 66080.992301 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault3/assault3.mat
+  artifactKey: Guid(9a50065a1e4866b42946175d9a5f86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault3/assault3.mat using Guid(9a50065a1e4866b42946175d9a5f86b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd107624d53ecd3b4583d1018f8d73138') in 1.273104 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 47.180813 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/assault4/assault4_diffuse.png
+  artifactKey: Guid(482cc8b3849e01e479e258dc2b8405b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/assault4/assault4_diffuse.png using Guid(482cc8b3849e01e479e258dc2b8405b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fc565831f36bd4af6708f2ddfdd0f18') in 0.122614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.938417 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol1/pistol1.mat
+  artifactKey: Guid(94e64d41f68240c41aabd3ef8e0368e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol1/pistol1.mat using Guid(94e64d41f68240c41aabd3ef8e0368e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccae06abe3e19b1332e87a28ce5eca8c') in 0.065291 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol1/pistol1_normal.png
+  artifactKey: Guid(a21b6f6faa594df4fa1cb1794a16a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol1/pistol1_normal.png using Guid(a21b6f6faa594df4fa1cb1794a16a4b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f95cfaea852d8caff72e1f13fd6af994') in 0.087329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.679427 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2.mat
+  artifactKey: Guid(7c16b6e19b642c247ba765631635ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2.mat using Guid(7c16b6e19b642c247ba765631635ff9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63da42053cb8ebaf4c3b677ed4f6c662') in 0.057346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_diffuse.png
+  artifactKey: Guid(4bc3804b3d89750428df34b00abe88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/pistol2/pistol2_diffuse.png using Guid(4bc3804b3d89750428df34b00abe88d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac2856f96998c562361119a028206e18') in 0.079072 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.900362 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1.mat
+  artifactKey: Guid(0c24ff3f078566f4d9d83ee8bd6a3f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1.mat using Guid(0c24ff3f078566f4d9d83ee8bd6a3f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819201597eaad22281f29d12cad661fa') in 0.101149 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1_normal.png
+  artifactKey: Guid(34ba857ac0ec86642b16ca7d9553e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun1/shotgun1_normal.png using Guid(34ba857ac0ec86642b16ca7d9553e349) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22bf7b57883917da1e5154d31f068b7f') in 0.093688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.626843 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2.mat
+  artifactKey: Guid(052eb9367e604ac428a8b8c83f4584da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2.mat using Guid(052eb9367e604ac428a8b8c83f4584da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d1e173482edc95e8400e57b727ba16b') in 0.069524 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2_diffuse.png
+  artifactKey: Guid(e09185ed5b07b374a88f54491b40380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/shotgun2/shotgun2_diffuse.png using Guid(e09185ed5b07b374a88f54491b40380d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3113062c1d08c2957e9dc0d2757cc8b') in 0.071087 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 22.074104 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg1/smg1.mat
+  artifactKey: Guid(42ff7de5af3ca404cbf8813deacd8dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg1/smg1.mat using Guid(42ff7de5af3ca404cbf8813deacd8dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c6ce17167c1a33efdb3a9fdb448961c') in 0.058001 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg1/smg1_diffuse.png
+  artifactKey: Guid(9ef818aed15542049ae0db5b3892e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg1/smg1_diffuse.png using Guid(9ef818aed15542049ae0db5b3892e764) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cec4ccab613f067eb03d36433de98e95') in 0.089829 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 16.951841 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg2/smg2.mat
+  artifactKey: Guid(d05b83a5733b4ba469d3c1a5891d6f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg2/smg2.mat using Guid(d05b83a5733b4ba469d3c1a5891d6f88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a9a9ac0f4b05f1ca87e1709a0cbd871') in 0.065787 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/smg2/smg2_diffuse.png
+  artifactKey: Guid(caafdf2f2d129814f8694a90a23683d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/smg2/smg2_diffuse.png using Guid(caafdf2f2d129814f8694a90a23683d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb436bfacd9db81ed645ab244b0b6bd6') in 0.056130 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 25.695644 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper1/sniper1.mat
+  artifactKey: Guid(b2dfdf44d328a59449b16f2b9d82492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper1/sniper1.mat using Guid(b2dfdf44d328a59449b16f2b9d82492c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c40eca8c65193b2288647cf3fad4bdee') in 0.055211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000087 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper1/sniper1_diffuse.png
+  artifactKey: Guid(97916b008521df7409ff55d6033c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper1/sniper1_diffuse.png using Guid(97916b008521df7409ff55d6033c520c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a88521d3f547b6d2a61da77e9ff10bff') in 0.061008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 15.616777 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper2/sniper2.mat
+  artifactKey: Guid(533eaf1384eb72d41bbf8a25b870c0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper2/sniper2.mat using Guid(533eaf1384eb72d41bbf8a25b870c0f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ccef1bec1b5559afbc7369677d39a8') in 0.057098 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Low Poly Guns/Models/Guns/sniper2/sniper2_diffuse.png
+  artifactKey: Guid(7274816d1b008604384326cffc88cbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Low Poly Guns/Models/Guns/sniper2/sniper2_diffuse.png using Guid(7274816d1b008604384326cffc88cbab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '270b5f5778c15bf30626fc22a06fbd27') in 0.065732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.733 seconds
+Refreshing native plugins compatible for Editor in 18.63 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.510 seconds
+Domain Reload Profiling: 4233ms
+	BeginReloadAssembly (637ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (23ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (123ms)
+	RebuildCommonClasses (136ms)
+	RebuildNativeTypeToScriptingClass (52ms)
+	initialDomainReloadingComplete (90ms)
+	LoadAllAssembliesAndSetupDomain (808ms)
+		LoadAssemblies (979ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (181ms)
+			TypeCache.Refresh (23ms)
+				TypeCache.ScanAssembly (1ms)
+			ScanForSourceGeneratedMonoScriptInfo (105ms)
+			ResolveRequiredComponents (49ms)
+	FinalizeReload (2511ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1107ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (146ms)
+			ProcessInitializeOnLoadAttributes (681ms)
+			ProcessInitializeOnLoadMethodAttributes (253ms)
+			AfterProcessingInitializeOnLoad (11ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (30ms)
+Refreshing native plugins compatible for Editor in 38.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7259 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 215 unused Assets / (13.2 MB). Loaded Objects now: 8019.
+Memory consumption went from 360.3 MB to 347.1 MB.
+Total: 26.101700 ms (FindLiveObjects: 1.326800 ms CreateObjectMapping: 1.315500 ms MarkObjects: 19.674700 ms  DeleteObjects: 3.782500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NzExplode.cs: e4f98f8959cb12b810b0c2b197410024 -> a771d1c7e65e55e33a589dbed140eddd
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NzSelection.cs: c55ec747d7264bfcd4dc37400fd26670 -> 57f1d5d1a5f593f3ce7b04f0d3eb86f8
+  custom:scripting/monoscript/fileName/NzCamNav.cs: dcee80bb59167c2f2af02b8261965603 -> 0188b1bb309ed1ce96f7283f6662ecc1
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraRotate.cs: 55021f2be27f9cda2dee249715bfd9ca -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NzAnim.cs: b3a05e6cd47e33023b215adf26b43913 -> 6d48babcd3381fd73ccf106f9983ef7f
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NzRotator.cs: 3026c715639065117df683a110552749 -> a0a30357f65f09c6634129056fab3ea0
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimpleShoot.cs: 9327e3975ddbf2dc32e9ebbe481e78f3 -> 9fb8d3949cadcf7a4a3f243fff7319c3
+========================================================================
+Received Import Request.
+  Time since last request: 3252.684393 seconds.
+  path: Assets/sig-sauer-mpx/source/MPX/MPX.obj
+  artifactKey: Guid(3a61e150beaf128459945d005d0fcf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/sig-sauer-mpx/source/MPX/MPX.obj using Guid(3a61e150beaf128459945d005d0fcf91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00ce0744ad2a72b76e7b03b516afc46e') in 1.487006 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 223.339458 seconds.
+  path: Assets/colt-c8/source/M4A1 Carbine_c4d/M4A1 Carbine.c4d.fbx
+  artifactKey: Guid(14f67c54bba0f964c8a0e1652519616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/source/M4A1 Carbine_c4d/M4A1 Carbine.c4d.fbx using Guid(14f67c54bba0f964c8a0e1652519616a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a9d96383baf308109b2a0a909fa7053') in 0.850453 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 89
+========================================================================
+Received Import Request.
+  Time since last request: 63.429135 seconds.
+  path: Assets/colt-c8/textures/0_Magazine_baseColor.png
+  artifactKey: Guid(cc9a953c5e3712740ad7d0ae893e407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/textures/0_Magazine_baseColor.png using Guid(cc9a953c5e3712740ad7d0ae893e407e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fb243107b7cb91e3aa09b734e8eaaa5') in 0.125202 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000084 seconds.
+  path: Assets/colt-c8/textures/27_Bullet_normal.png
+  artifactKey: Guid(46c596382cca8b94c924033e7d3037ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/textures/27_Bullet_normal.png using Guid(46c596382cca8b94c924033e7d3037ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0abc4a3738739915ecddd3a66a097f7c') in 0.079369 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000089 seconds.
+  path: Assets/colt-c8/textures/10_material_metallicRoughness.png
+  artifactKey: Guid(b18c79bd93ad3f74a97ad1f42e74dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/textures/10_material_metallicRoughness.png using Guid(b18c79bd93ad3f74a97ad1f42e74dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db6ff9be10fe1c302e1e36e4479a1612') in 0.080163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/colt-c8/textures/20_Sigth_normal.png
+  artifactKey: Guid(e44bb90e64174984faf6f637f82150e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/textures/20_Sigth_normal.png using Guid(e44bb90e64174984faf6f637f82150e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70e1dd21f0bca224b4a7358cbd941891') in 0.081985 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/colt-c8/textures/9_material_baseColor.png
+  artifactKey: Guid(2de527c5d77cd5f4987b4170714ba852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/textures/9_material_baseColor.png using Guid(2de527c5d77cd5f4987b4170714ba852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adff52fed8d13bc44f5e0e1720353aed') in 0.090457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000076 seconds.
+  path: Assets/colt-c8/textures/23_Laser_emissive.png
+  artifactKey: Guid(e9cc3ade7f5c13d4c82b1ed129183d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/colt-c8/textures/23_Laser_emissive.png using Guid(e9cc3ade7f5c13d4c82b1ed129183d65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb314e815a150b11c646201a173809a') in 0.080083 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

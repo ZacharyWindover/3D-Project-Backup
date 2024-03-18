@@ -1,0 +1,675 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.16f1 (d2c21f0ef2f1) revision 13812255'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19045) 64bit Professional' Language: 'en' Physical Memory: 32498 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker22
+-projectPath
+C:/Users/Zachary Windover/3D Project
+-logFile
+Logs/AssetImportWorker22.log
+-srvPort
+50281
+Successfully changed project path to: C:/Users/Zachary Windover/3D Project
+C:/Users/Zachary Windover/3D Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [11628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2907016060 [EditorId] 2907016060 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [11628] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2907016060 [EditorId] 2907016060 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 29.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Zachary Windover/3D Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     16249 MB
+    Driver:   27.20.100.9664
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56144
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.030122 seconds.
+- Loaded All Assemblies, in  0.572 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.415 seconds
+Domain Reload Profiling: 986ms
+	BeginReloadAssembly (130ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (51ms)
+	RebuildNativeTypeToScriptingClass (23ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (212ms)
+		LoadAssemblies (128ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (209ms)
+			TypeCache.Refresh (208ms)
+				TypeCache.ScanAssembly (191ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (416ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (326ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (8ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (3ms)
+			ProcessInitializeOnLoadAttributes (226ms)
+			ProcessInitializeOnLoadMethodAttributes (78ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  1.063 seconds
+Refreshing native plugins compatible for Editor in 11.55 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.339 seconds
+Domain Reload Profiling: 3396ms
+	BeginReloadAssembly (195ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (45ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (463ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (348ms)
+			TypeCache.Refresh (289ms)
+				TypeCache.ScanAssembly (263ms)
+			ScanForSourceGeneratedMonoScriptInfo (43ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (2340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1972ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (191ms)
+			ProcessInitializeOnLoadAttributes (1491ms)
+			ProcessInitializeOnLoadMethodAttributes (264ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.18 seconds
+Refreshing native plugins compatible for Editor in 10.98 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 7518 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (13.2 MB). Loaded Objects now: 7842.
+Memory consumption went from 405.6 MB to 392.4 MB.
+Total: 11.857200 ms (FindLiveObjects: 0.584200 ms CreateObjectMapping: 0.524200 ms MarkObjects: 8.289300 ms  DeleteObjects: 2.458200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/NzExplode.cs: e4f98f8959cb12b810b0c2b197410024 -> a771d1c7e65e55e33a589dbed140eddd
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/GunsMenu.cs: 0bc1edf6ed57c0bab43ed725d1f1ba4d -> 5944559c0cd4f7d33c7e6d0018381d8d
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/NzSelection.cs: c55ec747d7264bfcd4dc37400fd26670 -> 57f1d5d1a5f593f3ce7b04f0d3eb86f8
+  custom:scripting/monoscript/fileName/NzCamNav.cs: dcee80bb59167c2f2af02b8261965603 -> 0188b1bb309ed1ce96f7283f6662ecc1
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/CameraRotate.cs: 55021f2be27f9cda2dee249715bfd9ca -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/NzAnim.cs: b3a05e6cd47e33023b215adf26b43913 -> 6d48babcd3381fd73ccf106f9983ef7f
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/NzRotator.cs: 3026c715639065117df683a110552749 -> a0a30357f65f09c6634129056fab3ea0
+  custom:scripting/monoscript/fileName/GunView.cs: 1e03f80d6e785d26a1193ab50381dd86 -> 739f97972279064867911384b927bafd
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/SimpleShoot.cs: 9327e3975ddbf2dc32e9ebbe481e78f3 -> 9fb8d3949cadcf7a4a3f243fff7319c3
+========================================================================
+Received Import Request.
+  Time since last request: 98270.499321 seconds.
+  path: Assets/Third Party Assets/Automobiles/porshe-taycan
+  artifactKey: Guid(494963de29310ab45bf852ef7b2b68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porshe-taycan using Guid(494963de29310ab45bf852ef7b2b68ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07c01960827cc5130ac7c4b193f6739') in 0.005022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.118245 seconds.
+  path: Assets/Third Party Assets/Automobiles/porshe-taycan/source
+  artifactKey: Guid(e6801dfade1c27d4ab863dab54fec23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porshe-taycan/source using Guid(e6801dfade1c27d4ab863dab54fec23b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf0ba939b3d642563e956f6e3785726') in 0.001710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.686370 seconds.
+  path: Assets/Third Party Assets/Automobiles/porshe-taycan/source/Porshe_taycan_tscetchab.fbx
+  artifactKey: Guid(9e58b2e319a78b248a923dbb12598049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porshe-taycan/source/Porshe_taycan_tscetchab.fbx using Guid(9e58b2e319a78b248a923dbb12598049) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1070031bc22d1b0f36bc81d52b260954') in 7.537048 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 648
+========================================================================
+Received Import Request.
+  Time since last request: 1.190655 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs
+  artifactKey: Guid(79273617cb995e0409463258442ef1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs using Guid(79273617cb995e0409463258442ef1dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2073112ede43229d9ff6b984e865b40') in 0.016217 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.322163 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/source
+  artifactKey: Guid(9990a64d76cf1454ea33486d14b65d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/source using Guid(9990a64d76cf1454ea33486d14b65d28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f1fcbbc73b03b8f0829126ef96c2c11') in 0.001330 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.599914 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/source/GT3 RS.rar
+  artifactKey: Guid(a30bae1747d3ee5409b20eb0a5108b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/source/GT3 RS.rar using Guid(a30bae1747d3ee5409b20eb0a5108b0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79692a068d4de718a9e5b5396b35c44') in 0.001872 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.059006 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures
+  artifactKey: Guid(d19c505657da1e74eb52f15fcef7c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures using Guid(d19c505657da1e74eb52f15fcef7c31b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0412b8e7f87d147156f1bd81a0901536') in 0.000996 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/Porsche Emblem.png
+  artifactKey: Guid(fd47ebd56afda364d9979df48a6a1853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/Porsche Emblem.png using Guid(fd47ebd56afda364d9979df48a6a1853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d714e554ddb0f39ab9c8cc65b6f694d') in 0.081810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/org_grain_001_nrml.png.002.png
+  artifactKey: Guid(5061fb3e302ee3c48820444b1c66bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/org_grain_001_nrml.png.002.png using Guid(5061fb3e302ee3c48820444b1c66bdf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10d11773e826cb8c6495d3a08bb18595') in 0.078616 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/org_grain_001_nrml.png
+  artifactKey: Guid(eba5a5927b3884a45a4e066b0c9a43eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/org_grain_001_nrml.png using Guid(eba5a5927b3884a45a4e066b0c9a43eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f34e57333b59b5ecb7912d320d09e352') in 0.087573 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/Plastic_Rough_001_roughness.png
+  artifactKey: Guid(ea116a4f41209a141a3ec1d6db51f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-gt3-rs/textures/Plastic_Rough_001_roughness.png using Guid(ea116a4f41209a141a3ec1d6db51f11d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1d79d7181a3ff359942561a59c2a83') in 0.080017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 20.211356 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-918-free
+  artifactKey: Guid(00f675b8d45cd4e418319b9cffb0672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-918-free using Guid(00f675b8d45cd4e418319b9cffb0672b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f564a5ad1bca04413420e69638e0b09f') in 0.001111 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.032377 seconds.
+  path: Assets/Third Party Assets/Automobiles/porsche-918-free/source
+  artifactKey: Guid(bb9f924d81a32344395143026a83c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/porsche-918-free/source using Guid(bb9f924d81a32344395143026a83c327) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef24d0b2ce620f6f39c8e8bdffa1d97') in 0.001471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 15.648243 seconds.
+  path: Assets/Third Party Assets/Automobiles/mclaren-senna-free
+  artifactKey: Guid(c60340102e293fe489ab10ec03c5d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/mclaren-senna-free using Guid(c60340102e293fe489ab10ec03c5d08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005aede6c352d32c2742a86d35e68d3a') in 0.001778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 2.527496 seconds.
+  path: Assets/Third Party Assets/Automobiles/mclaren-senna-free/source
+  artifactKey: Guid(a1631bc444a31c44f987f717d29594dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/mclaren-senna-free/source using Guid(a1631bc444a31c44f987f717d29594dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a85035403a7b008706bae96b771199c') in 0.001777 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.822217 seconds.
+  path: Assets/Third Party Assets/Automobiles/mclaren-senna-free/source/senna
+  artifactKey: Guid(f1a4de521c8211344822b3d4f5399c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/mclaren-senna-free/source/senna using Guid(f1a4de521c8211344822b3d4f5399c54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acb1539817ee2972f0225e4beff9f7e2') in 0.001350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.995841 seconds.
+  path: Assets/Third Party Assets/Automobiles/mclaren-p1
+  artifactKey: Guid(4dceca0d0412c234cacd9d1aef8cb78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/mclaren-p1 using Guid(4dceca0d0412c234cacd9d1aef8cb78d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0044e8cb905daffdbbcb8ebee6586d') in 0.000893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.912010 seconds.
+  path: Assets/Third Party Assets/Automobiles/mclaren-p1/source
+  artifactKey: Guid(8eefe6f8726831b488a02f61212e262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/mclaren-p1/source using Guid(8eefe6f8726831b488a02f61212e262c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d37964dbbf8be29ad1f84e52c96e252') in 0.001474 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 53.306065 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro
+  artifactKey: Guid(98dd3248c35b7c140a03173a527113f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro using Guid(98dd3248c35b7c140a03173a527113f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fc4b277a93b967a123c4f835a543376') in 0.001741 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.294804 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/source
+  artifactKey: Guid(925d6b77421c5354c9e2dedb2020053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/source using Guid(925d6b77421c5354c9e2dedb2020053b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9d15cccc38de11ed4d63f2fb2925dc') in 0.001285 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 6.959977 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures
+  artifactKey: Guid(74047e11979b2dc4c85396644722826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures using Guid(74047e11979b2dc4c85396644722826f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b1ec1f958a1123786045d7a20852d8a') in 0.001021 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Metalness.jpg
+  artifactKey: Guid(011b3c08e3e413e44b6c2f3de0f5ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Metalness.jpg using Guid(011b3c08e3e413e44b6c2f3de0f5ff76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76bcff463619070eed57f806a760774d') in 0.088329 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Emissive_Shd_Normal.png
+  artifactKey: Guid(8660a2a398068a4418f5699c3275697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Emissive_Shd_Normal.png using Guid(8660a2a398068a4418f5699c3275697f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cdfc2fa35ba7978835635d3d6054e76') in 0.071031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_Metalness.jpg
+  artifactKey: Guid(a1841c78905c0d44bad3e3e2a9fdb8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_Metalness.jpg using Guid(a1841c78905c0d44bad3e3e2a9fdb8e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a2d67029ae4e75fee1a030e6d95a17e') in 0.065097 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Seats_Shd_Normal.png
+  artifactKey: Guid(326eb7bf08aec4f47ae04f46cd6e6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Seats_Shd_Normal.png using Guid(326eb7bf08aec4f47ae04f46cd6e6f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec6489eb3eaf80d3acc4a43f38ea05bc') in 0.073473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_BaseColor.jpg
+  artifactKey: Guid(d534ba00d86f5854ab27c8cdb515b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_BaseColor.jpg using Guid(d534ba00d86f5854ab27c8cdb515b7a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a10fa5511d47831b29ae7164d21c5d14') in 0.090917 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Emissive_Shd_Roughness.jpg
+  artifactKey: Guid(219564eae521e0542a056b9c784a6803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Emissive_Shd_Roughness.jpg using Guid(219564eae521e0542a056b9c784a6803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd36ad80e9612fb0e640298bb2447a467') in 0.057984 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Base_Shd_Metalness.jpg
+  artifactKey: Guid(b48d9416c14b4b941a8dd2a7b5b42c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Base_Shd_Metalness.jpg using Guid(b48d9416c14b4b941a8dd2a7b5b42c3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42d208d8b965d5822fed14cd6bb6cf8') in 0.076255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_DiskBrake_Shd_BaseColor.jpg
+  artifactKey: Guid(0ccfa458e18eeda4280357e8532e7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_DiskBrake_Shd_BaseColor.jpg using Guid(0ccfa458e18eeda4280357e8532e7999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdc345e06b336063d1be88c30bc0c414') in 0.063145 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000075 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Emissive_Shd_Metalness.jpg
+  artifactKey: Guid(3e113278dfc7a9746b4c988f7822f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Emissive_Shd_Metalness.jpg using Guid(3e113278dfc7a9746b4c988f7822f0db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff62bb56f6b4a7b3f40ee7173b92663') in 0.065085 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_Normal.png
+  artifactKey: Guid(8a6a2a933b3394a4a90c8f962c2f3b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_Normal.png using Guid(8a6a2a933b3394a4a90c8f962c2f3b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4b7b340471cba99f27a56ba313dfee') in 0.079056 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_Metalness.jpg
+  artifactKey: Guid(bb73e323fd2903c458a0a009a593b328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_Metalness.jpg using Guid(bb73e323fd2903c458a0a009a593b328) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abca326541f9287ee79f7492e33fc272') in 0.095058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000102 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_Opacity.jpg
+  artifactKey: Guid(4ac6a11f222c52a4ba43607a3b40ef50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_Opacity.jpg using Guid(4ac6a11f222c52a4ba43607a3b40ef50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35f12b4dee49057bbf7a6b12d6a650f5') in 0.059735 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Roughness.jpg
+  artifactKey: Guid(3d98fe9e05bc84441a056a85e4ce5222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Roughness.jpg using Guid(3d98fe9e05bc84441a056a85e4ce5222) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77dcb402621589e390380e1acba4f9be') in 0.096762 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Grills_Shd_BaseColor.jpg
+  artifactKey: Guid(9910086fdee016244ab9f9dd3533b9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Grills_Shd_BaseColor.jpg using Guid(9910086fdee016244ab9f9dd3533b9b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ee5c6fbd502f83211be744bf9f07d8f') in 0.063631 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Rims_Shd_Roughness.jpg
+  artifactKey: Guid(ec1c2bad96f276541ba819228f3a68c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Rims_Shd_Roughness.jpg using Guid(ec1c2bad96f276541ba819228f3a68c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a178a92fbb3f55bf7bd8bcfb43f2ea6b') in 0.082216 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_BaseColor.jpg
+  artifactKey: Guid(195f5c6c7ffbdf24dac7198941c3b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_BaseColor.jpg using Guid(195f5c6c7ffbdf24dac7198941c3b089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cffe02a4a67c6dcd9a681503cd49107') in 0.083579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000098 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_Roughness.jpg
+  artifactKey: Guid(9ce49455ae07c574e97181389f1acb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_OutCarbonFiber_Shd_Roughness.jpg using Guid(9ce49455ae07c574e97181389f1acb73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece5b1693f791b3b052825cbc8859d20') in 0.098005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_Emissive.jpg
+  artifactKey: Guid(0909978169a3cd74eb2d1dc234c45639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Steel_Shd_Emissive.jpg using Guid(0909978169a3cd74eb2d1dc234c45639) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e524e63e87d30f19672170da3771054') in 0.084321 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Body_Shd_BaseColor.jpg
+  artifactKey: Guid(1934321dbe253574c8b9166ced9b7fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Body_Shd_BaseColor.jpg using Guid(1934321dbe253574c8b9166ced9b7fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b9828b7e79b6dc280e235e678c99fdf') in 0.079890 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Base_Shd_Roughness.jpg
+  artifactKey: Guid(398e188b7f6b3bc418b0d22cc67c361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Base_Shd_Roughness.jpg using Guid(398e188b7f6b3bc418b0d22cc67c361e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a33552b130f9398be8e292d15983637') in 0.110690 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Opacity.jpg
+  artifactKey: Guid(dbacaff6a294fa0429c843fed2567440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Opacity.jpg using Guid(dbacaff6a294fa0429c843fed2567440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2d9327db7fa5ed36a913ce3bd709037') in 0.108338 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Tyre_Shd_BaseColor.jpg
+  artifactKey: Guid(8f768be8c75449a4abb0a8210bd8165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Tyre_Shd_BaseColor.jpg using Guid(8f768be8c75449a4abb0a8210bd8165b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b523e323ec1866c6933043b74f3a8d0') in 0.093659 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Seats_Shd_Roughness.jpg
+  artifactKey: Guid(62d642edd1612284c8a544548fd81125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Seats_Shd_Roughness.jpg using Guid(62d642edd1612284c8a544548fd81125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca43d1ed7110ee393e93838ee8d48b5e') in 0.080700 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Normal.png
+  artifactKey: Guid(e61306a0515e4b8499a37945c8032dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/textures/KOP_Cockpit_Shd_Normal.png using Guid(e61306a0515e4b8499a37945c8032dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a391b1b04af5a50e59c904b27cedd7') in 0.112432 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.894487 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/source/Koenigsegg_OnePlus.fbx
+  artifactKey: Guid(45db82166064c5740ba497c03c2c924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/source/Koenigsegg_OnePlus.fbx using Guid(45db82166064c5740ba497c03c2c924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f43036b85244be161dddc3eaecadbc61') in 1.860746 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 77
+========================================================================
+Received Import Request.
+  Time since last request: 11.548647 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/source/Koenigsegg_OnePlus.fbx
+  artifactKey: Guid(45db82166064c5740ba497c03c2c924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-one-pro/source/Koenigsegg_OnePlus.fbx using Guid(45db82166064c5740ba497c03c2c924f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f5cd377832bdabc379fdd402bd16b6') in 1.151439 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 65
+========================================================================
+Received Import Request.
+  Time since last request: 107.534754 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/cali.mat
+  artifactKey: Guid(f3a97366e41d5ee45943318e590e28af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/cali.mat using Guid(f3a97366e41d5ee45943318e590e28af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e91cbb6ed88ff5bd4dfcf359ff5cb43') in 0.034765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/paint.mat
+  artifactKey: Guid(95916a9db2421c643ae68d59787d8a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/paint.mat using Guid(95916a9db2421c643ae68d59787d8a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86aa3d11a89d729cf1f5a528b0c29f6e') in 0.030271 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/chrome.mat
+  artifactKey: Guid(8325b1fc26214be44bf6bf6da23e819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/chrome.mat using Guid(8325b1fc26214be44bf6bf6da23e819b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9381c2f72a50f8faed701c4804d5947') in 0.044311 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/mlack.mat
+  artifactKey: Guid(0db7ddcb6d7ba7643846ab61dd8beb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/mlack.mat using Guid(0db7ddcb6d7ba7643846ab61dd8beb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d2cc4cdc5162f98a70d9eb4a2f0074c') in 0.041076 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/tire.mat
+  artifactKey: Guid(c51592e5d8bc2954f973f0e4bb7265ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/tire.mat using Guid(c51592e5d8bc2954f973f0e4bb7265ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f940b7d017b21d7b95c9abb52367d93c') in 0.033955 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/grill.mat
+  artifactKey: Guid(44beee5bec3bdca45b9c35b86d78e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/grill.mat using Guid(44beee5bec3bdca45b9c35b86d78e4ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '139b650fefc79e4d6bc019c26575e75f') in 0.056201 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/disc.mat
+  artifactKey: Guid(b78525a8125ade44d8806b7751f7cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/disc.mat using Guid(b78525a8125ade44d8806b7751f7cf65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '445960afde57ae66994d186ae37250da') in 0.068301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/rgl.mat
+  artifactKey: Guid(679219ba0224ffb429788598d87d9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/rgl.mat using Guid(679219ba0224ffb429788598d87d9ef8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f671103c44f2fc041f7784d769ecf2ad') in 0.025014 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/whitemet.mat
+  artifactKey: Guid(820b8cd8fa30a094db624e0d3a50dd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/whitemet.mat using Guid(820b8cd8fa30a094db624e0d3a50dd3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d916156653cf3e33bdc3f9966a1057') in 0.059793 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/geepee.mat
+  artifactKey: Guid(97f1c56dec29a7e428a853a46433ead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/geepee.mat using Guid(97f1c56dec29a7e428a853a46433ead2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '879461cb35f11f5e7cefbb3e1d7b8cda') in 0.044737 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/mirror.mat
+  artifactKey: Guid(3cedab57045433742a4935b296532a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/mirror.mat using Guid(3cedab57045433742a4935b296532a9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a33b124099003f20c879e6c392439d') in 0.031344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/glack.mat
+  artifactKey: Guid(6417d121ddf3b1c4ea025868e4201b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/glack.mat using Guid(6417d121ddf3b1c4ea025868e4201b6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa363755295014fb19125e1497a0899') in 0.022780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/glass_l.mat
+  artifactKey: Guid(44e6ded04f8648540b5cd0df87b4c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Automobiles/koenigsegg-jesko/textures/glass_l.mat using Guid(44e6ded04f8648540b5cd0df87b4c1e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01a3ce4236289384ce9e5fc7e4fc3a69') in 0.045629 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
