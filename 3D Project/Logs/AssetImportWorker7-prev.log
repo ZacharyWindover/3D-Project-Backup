@@ -15,7 +15,7 @@ C:/Users/Zachary Windover/3D Project
 -logFile
 Logs/AssetImportWorker7.log
 -srvPort
-50281
+50261
 Successfully changed project path to: C:/Users/Zachary Windover/3D Project
 C:/Users/Zachary Windover/3D Project
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,12 +49,12 @@ C:/Users/Zachary Windover/3D Project
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [24124] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2074492880 [EditorId] 2074492880 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14328] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3956971088 [EditorId] 3956971088 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [24124] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 2074492880 [EditorId] 2074492880 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14328] Host "[IP] 192.168.56.1 [Port] 0 [Flags] 2 [Guid] 3956971088 [EditorId] 3956971088 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-K3F6L44) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
-Refreshing native plugins compatible for Editor in 68.03 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 72.09 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.16f1 (d2c21f0ef2f1)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -70,44 +70,44 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56988
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.013679 seconds.
-- Loaded All Assemblies, in  0.563 seconds
+Registered in 0.008190 seconds.
+- Loaded All Assemblies, in  0.401 seconds
 Native extension for WindowsStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.350 seconds
-Domain Reload Profiling: 911ms
-	BeginReloadAssembly (214ms)
+- Finished resetting the current domain, in  0.260 seconds
+Domain Reload Profiling: 659ms
+	BeginReloadAssembly (128ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (57ms)
-	RebuildNativeTypeToScriptingClass (15ms)
-	initialDomainReloadingComplete (80ms)
-	LoadAllAssembliesAndSetupDomain (196ms)
-		LoadAssemblies (211ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (138ms)
+		LoadAssemblies (126ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (193ms)
-			TypeCache.Refresh (191ms)
-				TypeCache.ScanAssembly (174ms)
+		AnalyzeDomain (137ms)
+			TypeCache.Refresh (136ms)
+				TypeCache.ScanAssembly (123ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (351ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (260ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (278ms)
+		SetupLoadedEditorAssemblies (208ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (11ms)
-			SetLoadedEditorAssemblies (8ms)
+			InitializePlatformSupportModulesInManaged (9ms)
+			SetLoadedEditorAssemblies (13ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (3ms)
-			ProcessInitializeOnLoadAttributes (199ms)
-			ProcessInitializeOnLoadMethodAttributes (56ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (42ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -115,161 +115,140 @@ Domain Reload Profiling: 911ms
 ========================================================================
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  1.032 seconds
-Refreshing native plugins compatible for Editor in 6.03 ms, found 3 plugins.
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  0.935 seconds
+Refreshing native plugins compatible for Editor in 8.44 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  1.067 seconds
-Domain Reload Profiling: 2095ms
-	BeginReloadAssembly (257ms)
+- Finished resetting the current domain, in  0.954 seconds
+Domain Reload Profiling: 1885ms
+	BeginReloadAssembly (167ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (7ms)
+		DisableScriptedObjects (5ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (27ms)
-	RebuildCommonClasses (44ms)
-	RebuildNativeTypeToScriptingClass (14ms)
-	initialDomainReloadingComplete (53ms)
-	LoadAllAssembliesAndSetupDomain (660ms)
-		LoadAssemblies (528ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (34ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (428ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (261ms)
-			TypeCache.Refresh (221ms)
-				TypeCache.ScanAssembly (183ms)
-			ScanForSourceGeneratedMonoScriptInfo (24ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1068ms)
+		AnalyzeDomain (362ms)
+			TypeCache.Refresh (317ms)
+				TypeCache.ScanAssembly (294ms)
+			ScanForSourceGeneratedMonoScriptInfo (34ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (954ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (740ms)
+		SetupLoadedEditorAssemblies (736ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (8ms)
-			SetLoadedEditorAssemblies (5ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (86ms)
-			ProcessInitializeOnLoadAttributes (527ms)
-			ProcessInitializeOnLoadMethodAttributes (104ms)
-			AfterProcessingInitializeOnLoad (10ms)
+			ProcessInitializeOnLoadAttributes (439ms)
+			ProcessInitializeOnLoadMethodAttributes (195ms)
+			AfterProcessingInitializeOnLoad (7ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (8ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 8.68 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4937 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 72 unused Assets / (0.7 MB). Loaded Objects now: 5401.
-Memory consumption went from 276.8 MB to 276.1 MB.
-Total: 4.548200 ms (FindLiveObjects: 0.412000 ms CreateObjectMapping: 0.340400 ms MarkObjects: 3.397600 ms  DeleteObjects: 0.397100 ms)
+Unloading 7519 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 249 unused Assets / (13.2 MB). Loaded Objects now: 7843.
+Memory consumption went from 405.6 MB to 392.4 MB.
+Total: 8.948500 ms (FindLiveObjects: 0.504400 ms CreateObjectMapping: 0.539600 ms MarkObjects: 5.755900 ms  DeleteObjects: 2.147900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:scripting/monoscript/fileName/NzExplode.cs: e4f98f8959cb12b810b0c2b197410024 -> a771d1c7e65e55e33a589dbed140eddd
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:scripting/monoscript/fileName/NzAnim.cs: b3a05e6cd47e33023b215adf26b43913 -> 6d48babcd3381fd73ccf106f9983ef7f
-  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
   custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
-  custom:scripting/monoscript/fileName/NzRotator.cs: 3026c715639065117df683a110552749 -> a0a30357f65f09c6634129056fab3ea0
-  custom:scripting/monoscript/fileName/NzSelection.cs: c55ec747d7264bfcd4dc37400fd26670 -> 57f1d5d1a5f593f3ce7b04f0d3eb86f8
-  custom:scripting/monoscript/fileName/NzCamNav.cs: dcee80bb59167c2f2af02b8261965603 -> 0188b1bb309ed1ce96f7283f6662ecc1
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:scripting/monoscript/fileName/SimpleShoot.cs: 9327e3975ddbf2dc32e9ebbe481e78f3 -> 9fb8d3949cadcf7a4a3f243fff7319c3
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 4d1d7186bcbbfe361de5f0ad951e585c -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 44963.864464 seconds.
-  path: Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs/SynTaxP40_Attachments_OFF.prefab
-  artifactKey: Guid(619e6cf2df6b6134081a14e063da5e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Weapons_MassConfusion/SYNTax_P40/Prefabs/SynTaxP40_Attachments_OFF.prefab using Guid(619e6cf2df6b6134081a14e063da5e79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab2fa5c2eaf3367aaeaa96e2a529f2e9') in 1.477378 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 148
-========================================================================
-Received Import Request.
-  Time since last request: 1873.078168 seconds.
-  path: Assets/Rifle/Textures/rifle_nrm.tga
-  artifactKey: Guid(5087bb464ab5e7e4486e5bd5aa868aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rifle/Textures/rifle_nrm.tga using Guid(5087bb464ab5e7e4486e5bd5aa868aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a90e3aa12fdb0bf28a2f2a7f4905cd') in 0.116922 seconds
+  Time since last request: 2389.572168 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/lightfore_Mixed_AO.png
+  artifactKey: Guid(6c208ec962af7a145b463df795876898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/lightfore_Mixed_AO.png using Guid(6c208ec962af7a145b463df795876898) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39ddaee22bf602142da1722a1c81e937') in 0.226008 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 9.952621 seconds.
-  path: Assets/Rifle/Prefabs/rifle.prefab
-  artifactKey: Guid(9a21925963ad72641b17d3da3e0c173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Rifle/Prefabs/rifle.prefab using Guid(9a21925963ad72641b17d3da3e0c173f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1b2933dd05f3208c7d8e025317400d') in 0.078353 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 20
-========================================================================
-Received Import Request.
-  Time since last request: 1171.081308 seconds.
-  path: Assets/Third Party Assets/Primary/SYNTax P40/Prefabs/SynTaxP40_Camo_Attachments_OFF.prefab
-  artifactKey: Guid(2765330cd88254940b55be2f4a25e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/SYNTax P40/Prefabs/SynTaxP40_Camo_Attachments_OFF.prefab using Guid(2765330cd88254940b55be2f4a25e575) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ec7c604ffc3610a7b7a5bc8150f0a5c') in 0.147879 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 147
-========================================================================
-Received Import Request.
-  Time since last request: 0.000071 seconds.
-  path: Assets/Third Party Assets/Primary/SYNTax P40/Prefabs/SynTaxP40_Camo_Attachments_ON.prefab
-  artifactKey: Guid(6d923eda071aa5a42a7ab8c1f316aa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/SYNTax P40/Prefabs/SynTaxP40_Camo_Attachments_ON.prefab using Guid(6d923eda071aa5a42a7ab8c1f316aa13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ad597635f06a50eee1a0883f7d36c59') in 0.243125 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 209
-========================================================================
-Received Import Request.
-  Time since last request: 16.648002 seconds.
-  path: Assets/Third Party Assets/Primary/Sniper Rifles/G28 Rifle/G28 Rifle_fbx.FBX
-  artifactKey: Guid(97247a95be0d8f14b849964664f93547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/Sniper Rifles/G28 Rifle/G28 Rifle_fbx.FBX using Guid(97247a95be0d8f14b849964664f93547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ded4ecdeb442c0ae52415a775344e98') in 0.215753 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Third Party Assets/Primary/Sniper Rifles/G28 Rifle/G28 Rifle_fbx_prefab.prefab
-  artifactKey: Guid(b5f885624a7be3842a9b6d65c31e0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/Sniper Rifles/G28 Rifle/G28 Rifle_fbx_prefab.prefab using Guid(b5f885624a7be3842a9b6d65c31e0343) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3b38a09b8bb0998a085b9bf1f499fcc') in 0.063348 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 15
-========================================================================
-Received Import Request.
-  Time since last request: 18.171010 seconds.
-  path: Assets/Third Party Assets/Primary/Sniper Rifles/SVD/SVD_Unity5/Prefabs/SVD.prefab
-  artifactKey: Guid(a3f4e5eb2a365e54190142e38b6b3dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/Sniper Rifles/SVD/SVD_Unity5/Prefabs/SVD.prefab using Guid(a3f4e5eb2a365e54190142e38b6b3dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3a1bf88156461c663d44932a87eae00') in 0.119241 seconds
-Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 28
-========================================================================
-Received Import Request.
-  Time since last request: 15.170227 seconds.
-  path: Assets/Third Party Assets/Primary/Sniper Rifles/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_AlbedoTransparency.png
-  artifactKey: Guid(e8ad23d630e513b4da2ae4652217fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/Sniper Rifles/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_AlbedoTransparency.png using Guid(e8ad23d630e513b4da2ae4652217fa22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ddeb4907ab7e53236d8f773347a918') in 0.118627 seconds
+  Time since last request: 0.000089 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_parts_set1_Roughness.png
+  artifactKey: Guid(a15acd866e5039841bbaa5ca23ba40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_parts_set1_Roughness.png using Guid(a15acd866e5039841bbaa5ca23ba40ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d3701b4acacfc591667475a565b957f') in 0.077254 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000050 seconds.
-  path: Assets/Third Party Assets/Primary/Sniper Rifles/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_Normal.png
-  artifactKey: Guid(475127f370ede2e4280d33f30ece628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/Sniper Rifles/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_Normal.png using Guid(475127f370ede2e4280d33f30ece628e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '708e5e96328e55df677a7ad051c2f0da') in 0.108622 seconds
+  Time since last request: 0.000124 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Roughness.png
+  artifactKey: Guid(63a4b3bd1e560114287aec3238690770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Roughness.png using Guid(63a4b3bd1e560114287aec3238690770) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de4711361d9c284c424f9c99f3e9d79f') in 0.066982 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000075 seconds.
-  path: Assets/Third Party Assets/Primary/Sniper Rifles/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_MetallicSmoothness.png
-  artifactKey: Guid(6dd208a214707f549900f2b6330bb3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Third Party Assets/Primary/Sniper Rifles/VCR01/VCR_AWM/Sand/URP/AWMOptimized_DefaultMaterial_MetallicSmoothness.png using Guid(6dd208a214707f549900f2b6330bb3b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c5697996b8dc5abe9edd51c377d4cfd') in 0.100481 seconds
+  Time since last request: 0.000046 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_mag_straight_Roughness.png
+  artifactKey: Guid(76020066f67abbc4597a0461a6102f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_mag_straight_Roughness.png using Guid(76020066f67abbc4597a0461a6102f45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79176ed45a7d4db37d2c8ddba87d141c') in 0.060134 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Mixed_AO.png
+  artifactKey: Guid(c17343b7149cca4468671eec4e6df659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Mixed_AO.png using Guid(c17343b7149cca4468671eec4e6df659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aab87e035b9959dd1f4fa4987d9e70a') in 0.055514 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_parts_set1_Base_Color.png
+  artifactKey: Guid(c32f5f3878ddcaa45834f08ff5fef5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_parts_set1_Base_Color.png using Guid(c32f5f3878ddcaa45834f08ff5fef5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7523585a77092f8e465dd59851bb1ad2') in 0.062866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Normal_OpenGL.png
+  artifactKey: Guid(6561319e5f8febd4eb99dd6d23549f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Normal_OpenGL.png using Guid(6561319e5f8febd4eb99dd6d23549f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1737eb1aafdd2504943bf53682e8fa92') in 0.074164 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/lightfore_Opacity.png
+  artifactKey: Guid(9156f21a09d4e3143abcfa8e6a700679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/lightfore_Opacity.png using Guid(9156f21a09d4e3143abcfa8e6a700679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7a1cbffd3d709b1969e6ed32ed06e2') in 0.078927 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000096 seconds.
+  path: Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Base_Color.png
+  artifactKey: Guid(7a54f805cbc1bc745b56898b80b6b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Third Party Assets/Primary/hk-mp5/source/mp5_skfb/mp5_Base_Color.png using Guid(7a54f805cbc1bc745b56898b80b6b3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc9c593a6f8c75e0e28e38c9f7031b15') in 0.068128 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
